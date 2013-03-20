@@ -1341,7 +1341,7 @@
               <y>-0.5501800179</y>
             </vector>
           </param>
-          <param name="canvas" use="./kaktus.sif#"/>
+          <param name="canvas" use="././kaktus.sif#"/>
           <param name="zoom">
             <real value="-1.5000000000"/>
           </param>
@@ -1464,7 +1464,7 @@
               <y>-0.3605677187</y>
             </vector>
           </param>
-          <param name="canvas" use="./kaktus.sif#"/>
+          <param name="canvas" use="././kaktus.sif#"/>
           <param name="zoom">
             <real value="-1.5000000000"/>
           </param>
@@ -6364,12 +6364,22 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="PasteCanvas" active="false" version="0.1" desc="AI">
+              <layer type="PasteCanvas" active="true" version="0.1" desc="AI">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="1.0000000000"/>
+                  <animated type="real">
+                    <waypoint time="6.58333349s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="6.625s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="7.375s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                  </animated>
                 </param>
                 <param name="blend_method">
                   <integer value="0"/>
@@ -6463,7 +6473,7 @@
                             </composite>
                           </entry>
                           <entry>
-                            <composite type="bline_point" guid="1171ECA753C4041CA96A7D49B440DB9A">
+                            <composite type="bline_point">
                               <point>
                                 <vector>
                                   <x>0.0405711271</x>
@@ -6601,7 +6611,7 @@
                         </color>
                       </param>
                       <param name="origin">
-                        <vector guid="8B0D089AA302824DC0A71E765A9CF484">
+                        <vector>
                           <x>0.0000000000</x>
                           <y>0.0000000000</y>
                         </vector>
@@ -6622,7 +6632,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="BAD141D5F38726322FB63F3E40A8C648">
+                        <bline type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -6863,7 +6873,7 @@
                             </composite>
                           </entry>
                           <entry>
-                            <composite type="bline_point" guid="1171ECA753C4041CA96A7D49B440DB9A">
+                            <composite type="bline_point">
                               <point>
                                 <vector>
                                   <x>0.0405711271</x>
@@ -7024,12 +7034,28 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="PasteCanvas" active="false" version="0.1" desc="WQ">
+              <layer type="PasteCanvas" active="true" version="0.1" desc="WQ">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="1.0000000000"/>
+                  <animated type="real">
+                    <waypoint time="5.70833349s" before="constant" after="constant">
+                      <real value="0.0000000000" guid="E8F7CB8C4A673558914C7B9D5BD9365A"/>
+                    </waypoint>
+                    <waypoint time="5.75s" before="constant" after="constant">
+                      <real value="1.0000000000" guid="118DE42471DEAD805D14690D09402F11"/>
+                    </waypoint>
+                    <waypoint time="5.875s" before="constant" after="constant">
+                      <real value="0.0000000000" guid="676D0B6D2BD41E5DC42267077E459F0D"/>
+                    </waypoint>
+                    <waypoint time="6.08333349s" before="constant" after="constant">
+                      <real value="1.0000000000" guid="67B8C383E782FFA8E2E8D34DCF319EE2"/>
+                    </waypoint>
+                    <waypoint time="6.16666651s" before="constant" after="constant">
+                      <real value="0.0000000000" guid="383F0B1212DED1486872F7A3D13CDE72"/>
+                    </waypoint>
+                  </animated>
                 </param>
                 <param name="blend_method">
                   <integer value="0"/>
@@ -7442,7 +7468,7 @@
                         </bline>
                       </param>
                       <param name="width">
-                        <real value="0.1000000015" guid="2D19319EBD6BF21721291AE9762C4BE4"/>
+                        <real value="0.1000000015"/>
                       </param>
                       <param name="expand">
                         <real value="0.0000000000"/>
@@ -7484,12 +7510,46 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="PasteCanvas" active="false" version="0.1" desc="E">
+              <layer type="PasteCanvas" active="true" version="0.1" desc="E">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="1.0000000000"/>
+                  <animated type="real">
+                    <waypoint time="5.125s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.16666651s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.25s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.33333349s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.41666651s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.625s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.75s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.875s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.95833349s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="6.29166651s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="6.625s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                  </animated>
                 </param>
                 <param name="blend_method">
                   <integer value="0"/>
@@ -8144,12 +8204,34 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="PasteCanvas" active="false" version="0.1" desc="MBP">
+              <layer type="PasteCanvas" active="true" version="0.1" desc="MBP">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="1.0000000000"/>
+                  <animated type="real">
+                    <waypoint time="5.04166651s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.08333349s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.16666651s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.25s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.33333349s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.41666651s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.625s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                  </animated>
                 </param>
                 <param name="blend_method">
                   <integer value="0"/>
@@ -8206,7 +8288,7 @@
                           <entry>
                             <composite type="bline_point">
                               <point>
-                                <vector guid="5DB4CE5CC0443E2C9BFBF857D91E5203">
+                                <vector>
                                   <x>-0.1074024662</x>
                                   <y>-0.4976778328</y>
                                 </vector>
@@ -8233,10 +8315,10 @@
                               <t2>
                                 <radial_composite type="vector">
                                   <radius>
-                                    <real value="1.3121540803" guid="B1AEB655FA37DE95A7E026452365300D"/>
+                                    <real value="1.3121540803"/>
                                   </radius>
                                   <theta>
-                                    <angle value="-148.572708" guid="D94E160365AB0ABE93BB9FF4FD6A5326"/>
+                                    <angle value="-148.572708"/>
                                   </theta>
                                 </radial_composite>
                               </t2>
@@ -8245,7 +8327,7 @@
                           <entry>
                             <composite type="bline_point">
                               <point>
-                                <vector guid="563DBA3277AA4DF0CA12F58E7D74AE99">
+                                <vector>
                                   <x>-1.3618412018</x>
                                   <y>-0.4562124610</y>
                                 </vector>
@@ -8262,10 +8344,10 @@
                               <t1>
                                 <radial_composite type="vector">
                                   <radius>
-                                    <real value="1.6306473957" guid="205AEB3C369F6947B6C8F33CD4CA0A5E"/>
+                                    <real value="1.6306473957"/>
                                   </radius>
                                   <theta>
-                                    <angle value="145.099899" guid="896E9227F0F504A49A1CFF2DDC0A49BF"/>
+                                    <angle value="145.099899"/>
                                   </theta>
                                 </radial_composite>
                               </t1>
@@ -8326,12 +8408,34 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="PasteCanvas" active="false" version="0.1" desc="O">
+              <layer type="PasteCanvas" active="true" version="0.1" desc="O">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="1.0000000000"/>
+                  <animated type="real">
+                    <waypoint time="4.95833349s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.08333349s" before="constant" after="constant">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5.95833349s" before="constant" after="constant">
+                      <real value="1.0000000000" guid="DE7C844BFCF6C2AF2A6A9E40CB52B201"/>
+                    </waypoint>
+                    <waypoint time="6.08333349s" before="constant" after="constant">
+                      <real value="0.0000000000" guid="B43D8AD0CDE8D3A399F2305F8167FB3F"/>
+                    </waypoint>
+                    <waypoint time="6.16666651s" before="constant" after="constant">
+                      <real value="1.0000000000" guid="D9DF2FEC128DB8ED0D16CF7F9EBFCFCF"/>
+                    </waypoint>
+                    <waypoint time="6.29166651s" before="constant" after="constant">
+                      <real value="0.0000000000" guid="68EE74F9554E785CB149A7838D6713C1"/>
+                    </waypoint>
+                  </animated>
                 </param>
                 <param name="blend_method">
                   <integer value="0"/>
@@ -8991,7 +9095,17 @@
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="1.0000000000"/>
+                  <animated type="real">
+                    <waypoint time="4.95833349s" before="clamped" after="clamped">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                    <waypoint time="5s" before="clamped" after="clamped">
+                      <real value="0.0000000000"/>
+                    </waypoint>
+                    <waypoint time="7.375s" before="constant" after="constant">
+                      <real value="1.0000000000"/>
+                    </waypoint>
+                  </animated>
                 </param>
                 <param name="blend_method">
                   <integer value="0"/>
@@ -16501,7 +16615,7 @@
                           </layer>
                           <layer type="rotate" active="true" version="0.1">
                             <param name="origin">
-                              <vector guid="62172D053C2FFFD59E044FDEBBF171E9">
+                              <vector>
                                 <x>-2.7019350529</x>
                                 <y>-3.8943510056</y>
                               </vector>
@@ -16509,13 +16623,13 @@
                             <param name="amount">
                               <animated type="angle">
                                 <waypoint time="6.45833349s" before="halt" after="halt">
-                                  <angle value="8.451941" guid="E23AD6EFE5D6E284A18659E30285D734"/>
+                                  <angle value="8.451941"/>
                                 </waypoint>
                                 <waypoint time="6.66666651s" before="halt" after="halt">
-                                  <angle value="3.434488" guid="EBEC60BEF968E5FF0352F6A3A23ED56F"/>
+                                  <angle value="3.434488"/>
                                 </waypoint>
                                 <waypoint time="6.875s" before="halt" after="halt">
-                                  <angle value="8.451941" guid="E23AD6EFE5D6E284A18659E30285D734"/>
+                                  <angle value="8.451941"/>
                                 </waypoint>
                               </animated>
                             </param>
@@ -16524,19 +16638,19 @@
                             <param name="origin">
                               <animated type="vector">
                                 <waypoint time="6.45833349s" before="halt" after="halt">
-                                  <vector guid="F157B8ECB774C87461EB189E21CB5740">
+                                  <vector>
                                     <x>0.0000000000</x>
                                     <y>0.1943919212</y>
                                   </vector>
                                 </waypoint>
                                 <waypoint time="6.66666651s" before="halt" after="halt">
-                                  <vector guid="3375C911783A1258AAD3669522DAE448">
+                                  <vector>
                                     <x>0.0000000000</x>
                                     <y>-0.0725643784</y>
                                   </vector>
                                 </waypoint>
                                 <waypoint time="6.875s" before="halt" after="halt">
-                                  <vector guid="F157B8ECB774C87461EB189E21CB5740">
+                                  <vector>
                                     <x>0.0000000000</x>
                                     <y>0.1943919212</y>
                                   </vector>
@@ -16686,19 +16800,19 @@
                                           <point>
                                             <animated type="vector">
                                               <waypoint time="6.45833349s" before="halt" after="halt">
-                                                <vector guid="7CAD804EEFD7FED84C3017A99B418E51">
+                                                <vector>
                                                   <x>-2.6884496212</x>
                                                   <y>-3.2932143211</y>
                                                 </vector>
                                               </waypoint>
                                               <waypoint time="6.66666651s" before="halt" after="halt">
-                                                <vector guid="5E71C6045348FB1C119545415428DB5B">
+                                                <vector>
                                                   <x>-2.6988167763</x>
                                                   <y>-3.5809032917</y>
                                                 </vector>
                                               </waypoint>
                                               <waypoint time="6.875s" before="halt" after="halt">
-                                                <vector guid="7CAD804EEFD7FED84C3017A99B418E51">
+                                                <vector>
                                                   <x>-2.6884496212</x>
                                                   <y>-3.2932143211</y>
                                                 </vector>
@@ -17153,19 +17267,19 @@
                                     <point>
                                       <animated type="vector">
                                         <waypoint time="6.45833349s" before="halt" after="halt">
-                                          <vector guid="7CAD804EEFD7FED84C3017A99B418E51">
+                                          <vector>
                                             <x>-2.6884496212</x>
                                             <y>-3.2932143211</y>
                                           </vector>
                                         </waypoint>
                                         <waypoint time="6.66666651s" before="halt" after="halt">
-                                          <vector guid="5E71C6045348FB1C119545415428DB5B">
+                                          <vector>
                                             <x>-2.6988167763</x>
                                             <y>-3.5809032917</y>
                                           </vector>
                                         </waypoint>
                                         <waypoint time="6.875s" before="halt" after="halt">
-                                          <vector guid="7CAD804EEFD7FED84C3017A99B418E51">
+                                          <vector>
                                             <x>-2.6884496212</x>
                                             <y>-3.2932143211</y>
                                           </vector>
@@ -17310,18 +17424,18 @@
                               <real value="0.0000000000"/>
                             </param>
                             <param name="link_time">
-                              <time value="6.45833349s" guid="43F6F7FA9DD53C2E27584418796C3267"/>
+                              <time value="6.45833349s"/>
                             </param>
                             <param name="local_time">
-                              <time value="6.45833349s" guid="51334486DC3ED8CC7FAB3BD776E63C2C"/>
+                              <time value="6.45833349s"/>
                             </param>
                             <param name="duration">
-                              <animated type="time" guid="D4349131F7826CD8DCDAFBB72E7C92EF">
+                              <animated type="time">
                                 <waypoint time="7.95833349s" before="clamped" after="clamped">
-                                  <time value="0.33333334s" guid="3EAD85F7DDAB1C0CAC28BF7C4E839354"/>
+                                  <time value="0.33333334s"/>
                                 </waypoint>
                                 <waypoint time="8s" before="clamped" after="clamped">
-                                  <time value="0s" guid="4E08632BB7A2E5E354B46C685538B109"/>
+                                  <time value="0s"/>
                                 </waypoint>
                               </animated>
                             </param>
