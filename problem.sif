@@ -4641,7 +4641,7 @@
                     <y>-0.5501800179</y>
                   </vector>
                 </param>
-                <param name="canvas" use="kaktus.sif#"/>
+                <param name="canvas" use="assets/kaktus.sif#"/>
                 <param name="zoom">
                   <real value="-1.5000000000"/>
                 </param>
@@ -4764,7 +4764,7 @@
                     <y>-0.3605677187</y>
                   </vector>
                 </param>
-                <param name="canvas" use="kaktus.sif#"/>
+                <param name="canvas" use="assets/kaktus.sif#"/>
                 <param name="zoom">
                   <real value="-1.5000000000"/>
                 </param>
