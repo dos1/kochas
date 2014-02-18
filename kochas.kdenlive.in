@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt title="Anonymous Submission" version="0.9.0" root="/home/dos/kdenlive" LC_NUMERIC="pl_PL.UTF-8">
+<mlt title="Anonymous Submission" version="0.9.0" root="__DIR__" LC_NUMERIC="pl_PL.UTF-8">
  <profile width="1920" display_aspect_den="9" colorspace="709" frame_rate_den="1" description="HD 1080p 24 fps" height="1080" display_aspect_num="16" frame_rate_num="24" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
  <producer in="0" out="14999" id="black">
   <property name="mlt_type">producer</property>
@@ -17,7 +17,7 @@
   <property name="mlt_type">producer</property>
   <property name="length">1751</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/dos/kochas/problemkochasia.flac</property>
+  <property name="resource">__DIR__/kochas.flac</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -43,7 +43,7 @@
   <property name="mlt_type">producer</property>
   <property name="length">577</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/dos/kochas/stolik/stolik.%04d.png</property>
+  <property name="resource">__DIR__/output/stolik/stolik.%04d.png</property>
   <property name="ttl">1</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -57,7 +57,7 @@
   <property name="mlt_type">producer</property>
   <property name="length">120</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/dos/kochas/stolik2/stolik2.0216.png</property>
+  <property name="resource">__DIR__/output/stolik2/stolik2.0216.png</property>
   <property name="ttl">25</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -71,7 +71,7 @@
   <property name="mlt_type">producer</property>
   <property name="length">50</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/dos/kochas/stolik2/stolik2.%04d.png?begin:216</property>
+  <property name="resource">__DIR__/output/stolik2/stolik2.%04d.png?begin:216</property>
   <property name="ttl">1</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -86,7 +86,7 @@
   <property name="mlt_type">producer</property>
   <property name="length">120</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/dos/kochas/stolik2/stolik2.0264.png</property>
+  <property name="resource">__DIR__/output/stolik2/stolik2.0264.png</property>
   <property name="ttl">25</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -100,7 +100,7 @@
   <property name="mlt_type">producer</property>
   <property name="length">542</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/dos/kochas/scena/scena.%04d.png</property>
+  <property name="resource">__DIR__/output/scena/scena.%04d.png</property>
   <property name="ttl">1</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -123,7 +123,7 @@
   <property name="mlt_type">producer</property>
   <property name="length">446</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/dos/kochas/problem/problem.%04d.png</property>
+  <property name="resource">__DIR__/output/problem/problem.%04d.png</property>
   <property name="ttl">1</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -233,9 +233,9 @@
    <property name="reverse">0</property>
   </transition>
  </tractor>
- <kdenlivedoc profile="atsc_1080p_24" kdenliveversion="0.9.6" version="0,88" projectfolder="/home/dos/kdenlive">
+ <kdenlivedoc profile="atsc_1080p_24" kdenliveversion="0.9.6" version="0,88" projectfolder="__DIR__/output">
   <customeffects/>
-  <documentproperties documentid="1374449391369" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="1179" renderrescale="0" renderscanning="0" renderurl="/home/dos/kochas/kochas.webm" rendertwopass="0" renderplay="0" position="793" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="WebM" zoneout="1399" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 92k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -b 150k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1374449391369" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="1179" renderrescale="0" renderscanning="0" renderurl="kochas.webm" rendertwopass="0" renderplay="0" position="793" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="WebM" zoneout="1399" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 92k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -b 150k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
@@ -251,23 +251,18 @@ p, li { white-space: pre-wrap; }
    <trackinfo blind="0" mute="0" locked="0" trackname="Video 2"/>
    <trackinfo blind="0" mute="0" locked="0" trackname="Video 1"/>
   </tracksinfo>
-  <kdenlive_producer duration="446" frame_size="1920x1080" thumbnail="100" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="445" softness="0" luma_duration="00:00:01:00" type="7" id="2" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/problem/problem.%04d.png"/>
-  <kdenlive_producer duration="542" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="541" softness="0" luma_duration="00:00:01:00" type="7" id="3" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/scena/scena.%04d.png"/>
-  <kdenlive_producer audio_max="56" audiocodec="FLAC (Free Lossless Audio Codec)" channels="2" duration="421" frame_size="1920x1080" frequency="44100" analysisdata="" file_size="2155626" aspect_ratio="0" file_hash="8f23f71f1b84d10e5d8cc8587c48c973" type="1" id="4" name="problemkochasiastart.flac" resource="/home/dos/kochas/problemkochasiastart.flac">
-   <metaproperty tool="" name="meta.attr.DATE">1999</metaproperty>
-   <metaproperty tool="" name="meta.attr.TITLE">Wyrzuć ten gniew</metaproperty>
-  </kdenlive_producer>
-  <kdenlive_producer audio_max="57" audiocodec="FLAC (Free Lossless Audio Codec)" channels="2" duration="515" frame_size="1920x1080" frequency="44100" analysisdata="" file_size="2495754" aspect_ratio="0" file_hash="56eff0191dea7ac3c2a5aedf5b10a45c" type="1" id="5" name="scena.flac" resource="/home/dos/kochas/scena.flac"/>
-  <kdenlive_producer audio_max="56" audiocodec="FLAC (Free Lossless Audio Codec)" channels="2" duration="1751" frame_size="1920x1080" frequency="44100" analysisdata="" file_size="8585035" aspect_ratio="0" file_hash="f9648fa149e5166ccd541ada17f911b7" type="1" id="7" name="problemkochasia.flac" resource="/home/dos/kochas/problemkochasia.flac">
+  <kdenlive_producer duration="446" frame_size="1920x1080" thumbnail="100" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="445" softness="0" luma_duration="00:00:01:00" type="7" id="2" fade="0" name="Klip pokazu slajdów" crop="0" resource="__DIR__/output/problem/problem.%04d.png"/>
+  <kdenlive_producer duration="542" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="541" softness="0" luma_duration="00:00:01:00" type="7" id="3" fade="0" name="Klip pokazu slajdów" crop="0" resource="__DIR__/output/scena/scena.%04d.png"/>
+  <kdenlive_producer audio_max="56" audiocodec="FLAC (Free Lossless Audio Codec)" channels="2" duration="1751" frame_size="1920x1080" frequency="44100" analysisdata="" file_size="8585035" aspect_ratio="0" file_hash="f9648fa149e5166ccd541ada17f911b7" type="1" id="7" name="kochas.flac" resource="__DIR__/kochas.flac">
    <metaproperty tool="" name="meta.attr.ALBUM">Pełna obaw</metaproperty>
    <metaproperty tool="" name="meta.attr.DATE">1999</metaproperty>
    <metaproperty tool="" name="meta.attr.TITLE">Wyrzuć ten gniew</metaproperty>
    <metaproperty tool="" name="meta.attr.track">12</metaproperty>
   </kdenlive_producer>
-  <kdenlive_producer duration="577" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="576" softness="0" luma_duration="00:00:01:00" type="7" id="8" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/stolik/stolik.%04d.png"/>
-  <kdenlive_producer duration="50" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="49" softness="0" luma_duration="00:00:01:00" type="7" id="9" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/stolik2/stolik2.%04d.png?begin:216"/>
-  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="384016" aspect_ratio="1" out="119" file_hash="de5ebe0006681357537ad87558775a55" type="5" id="10" name="stolik2.0264.png" resource="/home/dos/kochas/stolik2/stolik2.0264.png"/>
-  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="213761" aspect_ratio="1" out="119" file_hash="5a15c37ce1d4b81f20d7c1385df9d221" type="5" id="11" name="stolik2.0216.png" resource="/home/dos/kochas/stolik2/stolik2.0216.png"/>
+  <kdenlive_producer duration="577" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="576" softness="0" luma_duration="00:00:01:00" type="7" id="8" fade="0" name="Klip pokazu slajdów" crop="0" resource="__DIR__/output/stolik/stolik.%04d.png"/>
+  <kdenlive_producer duration="50" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="49" softness="0" luma_duration="00:00:01:00" type="7" id="9" fade="0" name="Klip pokazu slajdów" crop="0" resource="__DIR__/output/stolik2/stolik2.%04d.png?begin:216"/>
+  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="384016" aspect_ratio="1" out="119" file_hash="de5ebe0006681357537ad87558775a55" type="5" id="10" name="stolik2.0264.png" resource="__DIR__/output/stolik2/stolik2.0264.png"/>
+  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="213761" aspect_ratio="1" out="119" file_hash="5a15c37ce1d4b81f20d7c1385df9d221" type="5" id="11" name="stolik2.0216.png" resource="__DIR__/output/stolik2/stolik2.0216.png"/>
   <markers/>
   <groups/>
  </kdenlivedoc>
