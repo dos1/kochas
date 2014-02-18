@@ -15,9 +15,9 @@
    height="940"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="kochas.svg"
-   inkscape:export-filename="/home/dos/sygitszybki/kochas.png"
+   inkscape:export-filename="/home/dos/kochas/sygitprofil.png"
    inkscape:export-xdpi="225"
    inkscape:export-ydpi="225">
   <defs
@@ -285,18 +285,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.55137521"
-     inkscape:cx="518.02648"
-     inkscape:cy="414.03162"
+     inkscape:zoom="1"
+     inkscape:cx="633.74755"
+     inkscape:cy="497.28681"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3872"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1366"
      inkscape:window-height="748"
      inkscape:window-x="0"
-     inkscape:window-y="272"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      borderlayer="false"
      inkscape:showpageshadow="true"
@@ -309,7 +309,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
