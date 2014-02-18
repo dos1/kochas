@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" version="0.9.0" root="/home/dos/kdenlive" LC_NUMERIC="pl_PL.UTF-8">
+ <profile width="1920" display_aspect_den="9" colorspace="709" frame_rate_den="1" description="HD 1080p 24 fps" height="1080" display_aspect_num="16" frame_rate_num="24" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
+ <producer in="0" out="14999" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="1750" producer="black"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <producer in="0" out="1750" id="7_4">
+  <property name="mlt_type">producer</property>
+  <property name="length">1751</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/dos/kochas/problemkochasia.flac</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">flac</property>
+  <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.ALBUM.markup">Pełna obaw</property>
+  <property name="meta.attr.track.markup">12</property>
+  <property name="meta.attr.DATE.markup">1999</property>
+  <property name="meta.attr.TITLE.markup">Wyrzuć ten gniew</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry in="0" out="1750" producer="7_4"/>
+ </playlist>
+ <playlist id="playlist3"/>
+ <producer in="0" out="576" id="8">
+  <property name="mlt_type">producer</property>
+  <property name="length">577</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/dos/kochas/stolik/stolik.%04d.png</property>
+  <property name="ttl">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <producer in="0" out="119" id="11">
+  <property name="mlt_type">producer</property>
+  <property name="length">120</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/dos/kochas/stolik2/stolik2.0216.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <producer in="0" out="49" id="9">
+  <property name="mlt_type">producer</property>
+  <property name="length">50</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/dos/kochas/stolik2/stolik2.%04d.png?begin:216</property>
+  <property name="ttl">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="begin">216</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <producer in="0" out="119" id="10">
+  <property name="mlt_type">producer</property>
+  <property name="length">120</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/dos/kochas/stolik2/stolik2.0264.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <producer in="0" out="541" id="3">
+  <property name="mlt_type">producer</property>
+  <property name="length">542</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/dos/kochas/scena/scena.%04d.png</property>
+  <property name="ttl">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <playlist id="playlist4">
+  <blank length="404"/>
+  <entry in="0" out="282" producer="8"/>
+  <entry in="15" out="84" producer="11"/>
+  <entry in="0" out="48" producer="9"/>
+  <entry in="41" out="119" producer="10"/>
+  <entry in="0" out="540" producer="3"/>
+  <entry in="0" out="119" producer="11"/>
+ </playlist>
+ <producer in="0" out="445" id="2">
+  <property name="mlt_type">producer</property>
+  <property name="length">446</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/dos/kochas/problem/problem.%04d.png</property>
+  <property name="ttl">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <playlist id="playlist5">
+  <entry in="0" out="444" producer="2"/>
+  <blank length="790"/>
+  <entry in="469" out="560" producer="8"/>
+ </playlist>
+ <playlist id="playlist0"/>
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="1750" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track hide="video" producer="playlist2"/>
+  <track producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <track producer="playlist0"/>
+  <transition in="404" out="444" id="transition4">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="factory">loader</property>
+   <property name="resource">/media/ssd/.kde/share/apps/kdenlive/lumas/84389-watercolour-wash.pgm</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">luma</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+   <property name="invert">1</property>
+   <property name="softness">0,55</property>
+  </transition>
+  <transition in="1295" out="1326" id="transition5">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="factory">loader</property>
+   <property name="resource"/>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+   <property name="invert"/>
+   <property name="softness"/>
+  </transition>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">1</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">1</property>
+   <property name="b_track">5</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition6">
+   <property name="a_track">1</property>
+   <property name="b_track">6</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition in="1235" out="1266" id="transition7">
+   <property name="a_track">3</property>
+   <property name="b_track">5</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc profile="atsc_1080p_24" kdenliveversion="0.9.6" version="0,88" projectfolder="/home/dos/kdenlive">
+  <customeffects/>
+  <documentproperties documentid="1374449391369" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="1179" renderrescale="0" renderscanning="0" renderurl="/home/dos/kochas/kochas.webm" rendertwopass="0" renderplay="0" position="793" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="WebM" zoneout="1399" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 92k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -b 150k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'DejaVu Sans'; font-size:8pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo width="1920" display_aspect_den="9" frame_rate_den="1" description="HD 1080p 24 fps" height="1080" frame_rate_num="24" display_aspect_num="16" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
+  <tracksinfo>
+   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 2" type="audio"/>
+   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 1" type="audio"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 4"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 3"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 2"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 1"/>
+  </tracksinfo>
+  <kdenlive_producer duration="446" frame_size="1920x1080" thumbnail="100" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="445" softness="0" luma_duration="00:00:01:00" type="7" id="2" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/problem/problem.%04d.png"/>
+  <kdenlive_producer duration="542" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="541" softness="0" luma_duration="00:00:01:00" type="7" id="3" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/scena/scena.%04d.png"/>
+  <kdenlive_producer audio_max="56" audiocodec="FLAC (Free Lossless Audio Codec)" channels="2" duration="421" frame_size="1920x1080" frequency="44100" analysisdata="" file_size="2155626" aspect_ratio="0" file_hash="8f23f71f1b84d10e5d8cc8587c48c973" type="1" id="4" name="problemkochasiastart.flac" resource="/home/dos/kochas/problemkochasiastart.flac">
+   <metaproperty tool="" name="meta.attr.DATE">1999</metaproperty>
+   <metaproperty tool="" name="meta.attr.TITLE">Wyrzuć ten gniew</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="57" audiocodec="FLAC (Free Lossless Audio Codec)" channels="2" duration="515" frame_size="1920x1080" frequency="44100" analysisdata="" file_size="2495754" aspect_ratio="0" file_hash="56eff0191dea7ac3c2a5aedf5b10a45c" type="1" id="5" name="scena.flac" resource="/home/dos/kochas/scena.flac"/>
+  <kdenlive_producer audio_max="56" audiocodec="FLAC (Free Lossless Audio Codec)" channels="2" duration="1751" frame_size="1920x1080" frequency="44100" analysisdata="" file_size="8585035" aspect_ratio="0" file_hash="f9648fa149e5166ccd541ada17f911b7" type="1" id="7" name="problemkochasia.flac" resource="/home/dos/kochas/problemkochasia.flac">
+   <metaproperty tool="" name="meta.attr.ALBUM">Pełna obaw</metaproperty>
+   <metaproperty tool="" name="meta.attr.DATE">1999</metaproperty>
+   <metaproperty tool="" name="meta.attr.TITLE">Wyrzuć ten gniew</metaproperty>
+   <metaproperty tool="" name="meta.attr.track">12</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer duration="577" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="576" softness="0" luma_duration="00:00:01:00" type="7" id="8" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/stolik/stolik.%04d.png"/>
+  <kdenlive_producer duration="50" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="49" softness="0" luma_duration="00:00:01:00" type="7" id="9" fade="0" name="Klip pokazu slajdów" crop="0" resource="/home/dos/kochas/stolik2/stolik2.%04d.png?begin:216"/>
+  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="384016" aspect_ratio="1" out="119" file_hash="de5ebe0006681357537ad87558775a55" type="5" id="10" name="stolik2.0264.png" resource="/home/dos/kochas/stolik2/stolik2.0264.png"/>
+  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="213761" aspect_ratio="1" out="119" file_hash="5a15c37ce1d4b81f20d7c1385df9d221" type="5" id="11" name="stolik2.0216.png" resource="/home/dos/kochas/stolik2/stolik2.0216.png"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>
