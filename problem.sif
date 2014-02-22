@@ -2920,20 +2920,20 @@
                   <t1>
                     <radial_composite type="vector">
                       <radius>
-                        <real value="0.0000000000"/>
+                        <real value="1.0406961540"/>
                       </radius>
                       <theta>
-                        <angle value="0.000000"/>
+                        <angle value="85.495552"/>
                       </theta>
                     </radial_composite>
                   </t1>
                   <t2>
                     <radial_composite type="vector">
                       <radius>
-                        <real value="0.0000000000"/>
+                        <real value="1.0406961540"/>
                       </radius>
                       <theta>
-                        <angle value="0.000000"/>
+                        <angle value="85.495552"/>
                       </theta>
                     </radial_composite>
                   </t2>
@@ -4639,7 +4639,7 @@
                     <y>-0.5501800179</y>
                   </vector>
                 </param>
-                <param name="canvas" use="././assets/kaktus.sif#"/>
+                <param name="canvas" use="./././assets/kaktus.sif#"/>
                 <param name="zoom">
                   <real value="-1.5000000000"/>
                 </param>
@@ -4762,7 +4762,7 @@
                     <y>-0.3605677187</y>
                   </vector>
                 </param>
-                <param name="canvas" use="././assets/kaktus.sif#"/>
+                <param name="canvas" use="./././assets/kaktus.sif#"/>
                 <param name="zoom">
                   <real value="-1.5000000000"/>
                 </param>
@@ -17293,7 +17293,7 @@
                       <param name="origin">
                         <vector>
                           <x>0.0000000000</x>
-                          <y>0.0000000000</y>
+                          <y>0.0647973046</y>
                         </vector>
                       </param>
                       <param name="canvas">
@@ -17516,6 +17516,20 @@
                             </param>
                             <param name="type">
                               <integer value="3"/>
+                            </param>
+                          </layer>
+                          <layer type="stretch" active="true" exclude_from_rendering="false" version="0.1">
+                            <param name="amount">
+                              <vector>
+                                <x>-1.0000002384</x>
+                                <y>1.0000002384</y>
+                              </vector>
+                            </param>
+                            <param name="center">
+                              <vector>
+                                <x>-0.7747904062</x>
+                                <y>3.0316283703</y>
+                              </vector>
                             </param>
                           </layer>
                         </canvas>
@@ -36572,10 +36586,10 @@
                 <param name="amount">
                   <animated type="real">
                     <waypoint time="15.25s" before="halt" after="halt">
-                      <real guid="2C9ADDC1FCE3A67246BDA6B6DA44A268" value="0.0000000000"/>
+                      <real value="0.0000000000"/>
                     </waypoint>
                     <waypoint time="17.5s" before="halt" after="halt">
-                      <real guid="C90758AA08A81E94BBF38A858A1CE707" value="0.1000000000"/>
+                      <real value="0.1000000000"/>
                     </waypoint>
                   </animated>
                 </param>

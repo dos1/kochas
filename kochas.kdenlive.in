@@ -10,7 +10,7 @@
   <property name="mlt_service">colour</property>
  </producer>
  <playlist id="black_track">
-  <entry in="0" out="1750" producer="black"/>
+  <entry in="0" out="1753" producer="black"/>
  </playlist>
  <playlist id="playlist1"/>
  <producer in="0" out="1750" id="7_4">
@@ -36,6 +36,7 @@
   <property name="mlt_service">avformat</property>
  </producer>
  <playlist id="playlist2">
+  <blank length="3"/>
   <entry in="0" out="1750" producer="7_4"/>
  </playlist>
  <playlist id="playlist3"/>
@@ -111,7 +112,7 @@
   <property name="mlt_service">pixbuf</property>
  </producer>
  <playlist id="playlist4">
-  <blank length="404"/>
+  <blank length="407"/>
   <entry in="0" out="282" producer="8"/>
   <entry in="15" out="84" producer="11"/>
   <entry in="0" out="48" producer="9"/>
@@ -134,12 +135,13 @@
   <property name="mlt_service">pixbuf</property>
  </producer>
  <playlist id="playlist5">
+  <blank length="3"/>
   <entry in="0" out="444" producer="2"/>
   <blank length="790"/>
   <entry in="469" out="560" producer="8"/>
  </playlist>
  <playlist id="playlist0"/>
- <tractor title="Anonymous Submission" global_feed="1" in="0" out="1750" id="maintractor">
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="1753" id="maintractor">
   <property name="meta.volume">1</property>
   <track producer="black_track"/>
   <track hide="video" producer="playlist1"/>
@@ -148,7 +150,7 @@
   <track producer="playlist4"/>
   <track producer="playlist5"/>
   <track producer="playlist0"/>
-  <transition in="404" out="444" id="transition4">
+  <transition in="407" out="447" id="transition4">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="factory">loader</property>
@@ -162,7 +164,7 @@
    <property name="invert">1</property>
    <property name="softness">0,55</property>
   </transition>
-  <transition in="1295" out="1326" id="transition5">
+  <transition in="1298" out="1329" id="transition5">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="factory">loader</property>
@@ -221,7 +223,7 @@
    <property name="combine">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition in="1235" out="1266" id="transition7">
+  <transition in="1238" out="1269" id="transition7">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="factory">loader</property>
@@ -235,7 +237,7 @@
  </tractor>
  <kdenlivedoc profile="atsc_1080p_24" kdenliveversion="0.9.6" version="0,88" projectfolder="__DIR__/output">
   <customeffects/>
-  <documentproperties documentid="1374449391369" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="1179" renderrescale="0" renderscanning="0" renderurl="kochas.webm" rendertwopass="0" renderplay="0" position="793" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="WebM" zoneout="1399" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 92k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -b 150k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1374449391369" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="1179" renderrescale="0" renderscanning="0" renderurl="__DIR__/output/kochas.webm" rendertwopass="0" renderplay="0" position="0" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="WebM" zoneout="1399" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 92k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -b 150k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
