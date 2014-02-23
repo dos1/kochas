@@ -39,7 +39,51 @@
   <blank length="3"/>
   <entry in="0" out="1750" producer="7_4"/>
  </playlist>
- <playlist id="playlist3"/>
+ <producer in="0" out="445" id="2">
+  <property name="mlt_type">producer</property>
+  <property name="length">446</property>
+  <property name="eof">pause</property>
+  <property name="resource">__DIR__/output/problem/problem.%04d.png</property>
+  <property name="ttl">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <producer in="0" out="152" id="14">
+  <property name="mlt_type">producer</property>
+  <property name="length">153</property>
+  <property name="eof">pause</property>
+  <property name="resource">__DIR__/output/problem/problem.0097.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <playlist id="playlist3">
+  <blank length="1547"/>
+  <entry in="71" out="96" producer="2"/>
+  <entry in="0" out="129" producer="14">
+   <filter in="84" out="129" id="fade_to_black">
+    <property name="track">0</property>
+    <property name="start">1</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="end">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+ </playlist>
  <producer in="0" out="576" id="8">
   <property name="mlt_type">producer</property>
   <property name="length">577</property>
@@ -54,9 +98,9 @@
   <property name="meta.media.height">1080</property>
   <property name="mlt_service">pixbuf</property>
  </producer>
- <producer in="0" out="119" id="11">
+ <producer in="0" out="140" id="11">
   <property name="mlt_type">producer</property>
-  <property name="length">120</property>
+  <property name="length">141</property>
   <property name="eof">pause</property>
   <property name="resource">__DIR__/output/stolik2/stolik2.0216.png</property>
   <property name="ttl">25</property>
@@ -111,6 +155,20 @@
   <property name="meta.media.height">1080</property>
   <property name="mlt_service">pixbuf</property>
  </producer>
+ <producer in="0" out="295" id="15">
+  <property name="mlt_type">producer</property>
+  <property name="length">296</property>
+  <property name="eof">pause</property>
+  <property name="resource">__DIR__/wip.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
  <playlist id="playlist4">
   <blank length="407"/>
   <entry in="0" out="282" producer="8"/>
@@ -118,13 +176,24 @@
   <entry in="0" out="48" producer="9"/>
   <entry in="41" out="119" producer="10"/>
   <entry in="0" out="540" producer="3"/>
-  <entry in="0" out="119" producer="11"/>
+  <entry in="0" out="140" producer="11"/>
+  <entry in="0" out="88" producer="15"/>
  </playlist>
- <producer in="0" out="445" id="2">
+ <playlist id="playlist5">
+  <blank length="3"/>
+  <entry in="0" out="444" producer="2"/>
+  <blank length="242"/>
+  <entry in="0" out="197" producer="15"/>
+  <blank length="350"/>
+  <entry in="469" out="560" producer="8"/>
+  <blank length="99"/>
+  <entry in="0" out="141" producer="15"/>
+ </playlist>
+ <producer in="0" out="445" id="12">
   <property name="mlt_type">producer</property>
   <property name="length">446</property>
   <property name="eof">pause</property>
-  <property name="resource">__DIR__/output/problem/problem.%04d.png</property>
+  <property name="resource">__DIR__/output/latino/latino.%04d.png</property>
   <property name="ttl">1</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -134,13 +203,22 @@
   <property name="meta.media.height">1080</property>
   <property name="mlt_service">pixbuf</property>
  </producer>
- <playlist id="playlist5">
-  <blank length="3"/>
-  <entry in="0" out="444" producer="2"/>
-  <blank length="790"/>
-  <entry in="469" out="560" producer="8"/>
+ <playlist id="playlist0">
+  <blank length="1525"/>
+  <entry in="96" out="295" producer="12">
+   <filter in="266" out="295" id="filter0">
+    <property name="track">0</property>
+    <property name="start">1</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="end">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
  </playlist>
- <playlist id="playlist0"/>
  <tractor title="Anonymous Submission" global_feed="1" in="0" out="1753" id="maintractor">
   <property name="meta.volume">1</property>
   <track producer="black_track"/>
@@ -150,34 +228,6 @@
   <track producer="playlist4"/>
   <track producer="playlist5"/>
   <track producer="playlist0"/>
-  <transition in="407" out="447" id="transition4">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="factory">loader</property>
-   <property name="resource">/media/ssd/.kde/share/apps/kdenlive/lumas/84389-watercolour-wash.pgm</property>
-   <property name="mlt_type">transition</property>
-   <property name="mlt_service">luma</property>
-   <property name="automatic">1</property>
-   <property name="kdenlive_id">luma</property>
-   <property name="force_track">0</property>
-   <property name="reverse">1</property>
-   <property name="invert">1</property>
-   <property name="softness">0,55</property>
-  </transition>
-  <transition in="1298" out="1329" id="transition5">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="factory">loader</property>
-   <property name="resource"/>
-   <property name="mlt_type">transition</property>
-   <property name="mlt_service">luma</property>
-   <property name="automatic">1</property>
-   <property name="kdenlive_id">dissolve</property>
-   <property name="force_track">0</property>
-   <property name="reverse">1</property>
-   <property name="invert"/>
-   <property name="softness"/>
-  </transition>
   <transition id="transition0">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
@@ -223,7 +273,85 @@
    <property name="combine">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition in="1238" out="1269" id="transition7">
+  <transition in="407" out="447" id="transition4">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="factory">loader</property>
+   <property name="resource">/media/ssd/.kde/share/apps/kdenlive/lumas/84389-watercolour-wash.pgm</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">luma</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+   <property name="invert">1</property>
+   <property name="softness">0,55</property>
+  </transition>
+  <transition in="1298" out="1329" id="transition5">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="factory">loader</property>
+   <property name="resource"/>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+   <property name="invert"/>
+   <property name="softness"/>
+  </transition>
+  <transition in="1429" out="1570" id="transition7">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="1547" out="1569" id="transition8">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">1</property>
+   <property name="progressive">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">composite</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">0</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=-100%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
+  </transition>
+  <transition in="1570" out="1658" id="transition9">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="1238" out="1269" id="transition10">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="factory">loader</property>
@@ -234,10 +362,44 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
+  <transition in="690" out="887" id="transition11">
+   <property name="a_track">3</property>
+   <property name="b_track">5</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="1525" out="1724" id="transition12">
+   <property name="a_track">3</property>
+   <property name="b_track">6</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
  </tractor>
  <kdenlivedoc profile="atsc_1080p_24" kdenliveversion="0.9.6" version="0,88" projectfolder="__DIR__/output">
   <customeffects/>
-  <documentproperties documentid="1374449391369" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="1179" renderrescale="0" renderscanning="0" renderurl="__DIR__/output/kochas.webm" rendertwopass="0" renderplay="0" position="0" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="WebM" zoneout="1399" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 92k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -b 150k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1374449391369" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="1526" renderrescale="0" renderscanning="0" renderurl="__DIR__/output/kochas.webm" rendertwopass="0" renderplay="0" position="0" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="WebM" zoneout="1776" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 92k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -b 150k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
@@ -265,6 +427,9 @@ p, li { white-space: pre-wrap; }
   <kdenlive_producer duration="50" frame_size="1920x1080" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="49" softness="0" luma_duration="00:00:01:00" type="7" id="9" fade="0" name="Klip pokazu slajdów" crop="0" resource="__DIR__/output/stolik2/stolik2.%04d.png?begin:216"/>
   <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="384016" aspect_ratio="1" out="119" file_hash="de5ebe0006681357537ad87558775a55" type="5" id="10" name="stolik2.0264.png" resource="__DIR__/output/stolik2/stolik2.0264.png"/>
   <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="213761" aspect_ratio="1" out="119" file_hash="5a15c37ce1d4b81f20d7c1385df9d221" type="5" id="11" name="stolik2.0216.png" resource="__DIR__/output/stolik2/stolik2.0216.png"/>
+  <kdenlive_producer duration="446" frame_size="1920x1080" thumbnail="100" loop="0" in="0" analysisdata="" ttl="1" aspect_ratio="1" out="445" softness="0" luma_duration="00:00:01:00" type="7" id="12" fade="0" name="Klip pokazu slajdów" crop="0" resource="__DIR__/output/latino/latino.%04d.png"/>
+  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" in="0" analysisdata="" file_size="75855" aspect_ratio="1" out="119" file_hash="117efbabe3601e9570850f0e68b22e91" type="5" id="14" name="problem.0097.png" resource="__DIR__/output/problem/problem.0097.png"/>
+  <kdenlive_producer duration="120" transparency="1" frame_size="1920x1080" thumbnail="100" in="0" analysisdata="" file_size="53920" aspect_ratio="1" out="119" file_hash="4ebd8f2bb615dbd754d6432c91b2f276" type="5" id="15" name="wip.png" resource="__DIR__/wip.png"/>
   <markers/>
   <groups/>
  </kdenlivedoc>
