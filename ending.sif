@@ -35,7 +35,7 @@
               </vector>
             </waypoint>
             <waypoint time="2.54166675s" before="clamped" after="clamped">
-              <vector guid="5E215B20C1021D4AE7FF4A5C53DA3909">
+              <vector>
                 <x>0.4343229234</x>
                 <y>0.0569457263</y>
               </vector>
@@ -1608,25 +1608,25 @@
         <offset>
           <animated type="vector">
             <waypoint time="4.91666651s" before="clamped" after="clamped">
-              <vector guid="A9BC1A6E32DCE7072E69A216EC137545">
+              <vector>
                 <x>1.8264139891</x>
                 <y>1.9993407726</y>
               </vector>
             </waypoint>
             <waypoint time="6.08333349s" before="clamped" after="clamped">
-              <vector guid="79E9799DDC8F0AB2EF174D97352664A5">
+              <vector>
                 <x>1.7804766893</x>
                 <y>-1.8518188000</y>
               </vector>
             </waypoint>
             <waypoint time="6.41666651s" before="clamped" after="clamped">
-              <vector guid="6EDF51D0E7C32AAF8D9F6E5F30487251">
+              <vector>
                 <x>1.6253349781</x>
                 <y>-2.3830151558</y>
               </vector>
             </waypoint>
             <waypoint time="6.66666651s" before="clamped" after="clamped">
-              <vector guid="7B4C664797DA128EF5F4A57AA67EA959">
+              <vector>
                 <x>1.6518019438</x>
                 <y>-2.3299911022</y>
               </vector>
@@ -1636,16 +1636,16 @@
         <angle>
           <animated type="angle">
             <waypoint time="4.91666651s" before="clamped" after="clamped">
-              <angle guid="4AECD680026DF37764E59890FD624BFB" value="7.168610"/>
+              <angle value="7.168610"/>
             </waypoint>
             <waypoint time="6.08333349s" before="clamped" after="clamped">
-              <angle guid="C0C556B838ABB567AEA4F63CC22CEC25" value="7.166762"/>
+              <angle value="7.166762"/>
             </waypoint>
             <waypoint time="6.41666651s" before="clamped" after="clamped">
-              <angle guid="3A2D6007031688B01121017F8D29250D" value="-5.773993"/>
+              <angle value="-5.773993"/>
             </waypoint>
             <waypoint time="6.66666651s" before="clamped" after="clamped">
-              <angle guid="85D08ADCD951A14553A9628F33D117EC" value="-3.865345"/>
+              <angle value="-3.865345"/>
             </waypoint>
           </animated>
         </angle>
@@ -2731,7 +2731,7 @@
                                           <real value="4.4423188558"/>
                                         </radius>
                                         <theta>
-                                          <angle value="354.832245"/>
+                                          <angle value="354.832214"/>
                                         </theta>
                                       </radial_composite>
                                     </t1>
@@ -3045,7 +3045,7 @@
                                           <real value="4.4423188558"/>
                                         </radius>
                                         <theta>
-                                          <angle value="354.832245"/>
+                                          <angle value="354.832214"/>
                                         </theta>
                                       </radial_composite>
                                     </t1>
@@ -13998,7 +13998,7 @@
         </layer>
         <layer type="translate" active="true" exclude_from_rendering="false" version="0.1">
           <param name="origin">
-            <vector guid="8707A203535B6B2F124FA931C41A24CF">
+            <vector>
               <x>1.6456412077</x>
               <y>0.2115638107</y>
             </vector>
@@ -15172,7 +15172,7 @@
                                           <real value="4.4423188558"/>
                                         </radius>
                                         <theta>
-                                          <angle value="354.832245"/>
+                                          <angle value="354.832214"/>
                                         </theta>
                                       </radial_composite>
                                     </t1>
@@ -15486,7 +15486,7 @@
                                           <real value="4.4423188558"/>
                                         </radius>
                                         <theta>
-                                          <angle value="354.832245"/>
+                                          <angle value="354.832214"/>
                                         </theta>
                                       </radial_composite>
                                     </t1>
@@ -26490,19 +26490,19 @@
         <offset>
           <animated type="vector">
             <waypoint time="5.08333349s" before="clamped" after="clamped">
-              <vector guid="537D955C70C984B5E8CDBDDE90D0444B">
+              <vector>
                 <x>1.8264141083</x>
                 <y>2.1937620640</y>
               </vector>
             </waypoint>
             <waypoint time="6.25s" before="clamped" after="clamped">
-              <vector guid="4C7ACBC22304945CA3A1357424BD1268">
+              <vector>
                 <x>1.2696640491</x>
                 <y>-2.9395842552</y>
               </vector>
             </waypoint>
             <waypoint time="6.45833349s" before="clamped" after="clamped">
-              <vector guid="44C7FF824BF7083F9278EAD11C3C6A46">
+              <vector>
                 <x>1.3959537745</x>
                 <y>-2.5420870781</y>
               </vector>
@@ -26512,13 +26512,13 @@
         <angle>
           <animated type="angle">
             <waypoint time="5.08333349s" before="clamped" after="clamped">
-              <angle guid="C5DBB766942EB446A439EDB52A213A51" value="-7.616569"/>
+              <angle value="-7.616569"/>
             </waypoint>
             <waypoint time="6.25s" before="clamped" after="clamped">
-              <angle guid="53EF18557C7ECADD53422D25FB1AD8B0" value="-10.930015"/>
+              <angle value="-10.930015"/>
             </waypoint>
             <waypoint time="6.45833349s" before="clamped" after="clamped">
-              <angle guid="208216ABE60299F1EED60AD18B5FB495" value="-5.773993"/>
+              <angle value="-5.773993"/>
             </waypoint>
           </animated>
         </angle>
@@ -27604,7 +27604,7 @@
                                           <real value="4.4423188558"/>
                                         </radius>
                                         <theta>
-                                          <angle value="354.832245"/>
+                                          <angle value="354.832214"/>
                                         </theta>
                                       </radial_composite>
                                     </t1>
@@ -27918,7 +27918,7 @@
                                           <real value="4.4423188558"/>
                                         </radius>
                                         <theta>
-                                          <angle value="354.832245"/>
+                                          <angle value="354.832214"/>
                                         </theta>
                                       </radial_composite>
                                     </t1>
@@ -38871,7 +38871,7 @@
         </layer>
         <layer type="translate" active="true" exclude_from_rendering="false" version="0.1">
           <param name="origin">
-            <vector guid="0AE3F7A4FDB5A14A791388E555F1C150">
+            <vector>
               <x>-1.5006854534</x>
               <y>0.0656539723</y>
             </vector>
@@ -38922,25 +38922,25 @@
         <offset>
           <animated type="vector">
             <waypoint time="6s" before="clamped" after="clamped">
-              <vector guid="D4D8DCF44C4F17AA684FA4911FC0877B">
+              <vector>
                 <x>0.1017803624</x>
                 <y>4.5737805367</y>
               </vector>
             </waypoint>
             <waypoint time="7.08333349s" before="clamped" after="clamped">
-              <vector guid="3F597C572A2D4395218BD536E0DBA699">
+              <vector>
                 <x>-0.0000000017</x>
                 <y>-0.0387290493</y>
               </vector>
             </waypoint>
             <waypoint time="7.16666651s" before="clamped" after="clamped">
-              <vector guid="646A3195AEE10577C937C106BE16C952">
+              <vector>
                 <x>-0.0000000003</x>
                 <y>-0.0077107609</y>
               </vector>
             </waypoint>
             <waypoint time="7.33333349s" before="clamped" after="clamped">
-              <vector guid="036EE826BAC69ABE9095D7ED8BBA1541">
+              <vector>
                 <x>-0.0000000012</x>
                 <y>-0.0265120007</y>
               </vector>
@@ -38984,13 +38984,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="74AF9498EC7A999620E1FB38B82FE3DC">
+                    <vector>
                       <x>-3.1327245235</x>
                       <y>-0.7972679734</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="CDD7CAE1522C45475D0B426A4112D9E1">
+                    <vector>
                       <x>-3.1327245235</x>
                       <y>-1.0005266666</y>
                     </vector>
@@ -39065,8 +39065,8 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.000000</r>
-                          <g>0.000000</g>
+                          <r>0.040388</r>
+                          <g>0.031467</g>
                           <b>0.000000</b>
                           <a>1.000000</a>
                         </color>
@@ -39424,9 +39424,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
-                          <g>0.016068</g>
-                          <b>0.015175</b>
+                          <r>0.088506</r>
+                          <g>0.086699</g>
+                          <b>0.088517</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -40012,13 +40012,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="B984E63C8294553B023B227E1A490641">
+                    <vector>
                       <x>-4.3544840813</x>
                       <y>-1.5630623102</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="D9C271BD5708048F7FE63A20D24AE577">
+                    <vector>
                       <x>-4.3544840813</x>
                       <y>-1.6160863638</y>
                     </vector>
@@ -40093,7 +40093,7 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.000000</r>
+                          <r>0.035873</r>
                           <g>0.000000</g>
                           <b>0.000000</b>
                           <a>1.000000</a>
@@ -40453,7 +40453,7 @@
                       <param name="color">
                         <color>
                           <r>0.011881</r>
-                          <g>0.016068</g>
+                          <g>0.045893</g>
                           <b>0.015175</b>
                           <a>1.000000</a>
                         </color>
@@ -41040,13 +41040,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="D4BEDD2F2C7DF8D3DBE4FDA1F0E9E170">
+                    <vector>
                       <x>-1.6184074879</x>
                       <y>-0.6145679355</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="6733370358C7968BF3E0B19726D46DDB">
+                    <vector>
                       <x>-1.6184074879</x>
                       <y>-0.9680612683</y>
                     </vector>
@@ -41480,9 +41480,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
-                          <g>0.016068</g>
-                          <b>0.015175</b>
+                          <r>0.056613</r>
+                          <g>0.059156</g>
+                          <b>0.060766</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -42068,13 +42068,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="890E17E9EE68C38FBCCC96E8BC166888">
+                    <vector>
                       <x>-4.0253720284</x>
                       <y>-1.2751652002</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="B9014EAFFB74D429E76B01B33E96562E">
+                    <vector>
                       <x>-4.0253720284</x>
                       <y>-1.4519118071</y>
                     </vector>
@@ -42149,8 +42149,8 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.000000</r>
-                          <g>0.000000</g>
+                          <r>0.052063</r>
+                          <g>0.045410</g>
                           <b>0.000000</b>
                           <a>1.000000</a>
                         </color>
@@ -42510,7 +42510,7 @@
                         <color>
                           <r>0.011881</r>
                           <g>0.016068</g>
-                          <b>0.015175</b>
+                          <b>0.054249</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -43096,13 +43096,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="F6F419BC73AF325874A663C7F397E8B5">
+                    <vector>
                       <x>-3.8287680149</x>
                       <y>-0.9334293008</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="075707BB83D069B410383B5994384C58">
+                    <vector>
                       <x>-3.8287682533</x>
                       <y>-1.3399466276</y>
                     </vector>
@@ -43178,8 +43178,8 @@
                       <param name="color">
                         <color>
                           <r>0.000000</r>
-                          <g>0.000000</g>
-                          <b>0.000000</b>
+                          <g>0.022337</g>
+                          <b>0.021366</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -44124,13 +44124,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="16FA7A8904822A8391117243ECF45CC5">
+                    <vector>
                       <x>-3.5220179558</x>
                       <y>-0.8766223192</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="DD06AB1B12737E5D11F7B0109BA20DB0">
+                    <vector>
                       <x>-3.5220181942</x>
                       <y>-1.3184889555</y>
                     </vector>
@@ -44206,8 +44206,8 @@
                       <param name="color">
                         <color>
                           <r>0.000000</r>
-                          <g>0.000000</g>
-                          <b>0.000000</b>
+                          <g>0.055118</g>
+                          <b>0.053374</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -44564,9 +44564,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
+                          <r>0.054740</r>
                           <g>0.016068</g>
-                          <b>0.015175</b>
+                          <b>0.059108</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -45152,13 +45152,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="4611692557D867955E5032E11B733967">
+                    <vector>
                       <x>-3.3129899502</x>
                       <y>-0.0521443933</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="B935EFE0BBA970CC01898F2A5079387D">
+                    <vector>
                       <x>-3.3129899502</x>
                       <y>-1.2451844215</y>
                     </vector>
@@ -46180,13 +46180,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="118117F519536F7F905348D6E51CC132">
+                    <vector>
                       <x>-3.0075297356</x>
                       <y>-1.2137129307</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="EDC7256B3ED779539FE044AFD72424AC">
+                    <vector>
                       <x>-3.0075297356</x>
                       <y>-1.3020862341</y>
                     </vector>
@@ -46261,9 +46261,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.000000</r>
+                          <r>0.025042</r>
                           <g>0.000000</g>
-                          <b>0.000000</b>
+                          <b>0.027563</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -47208,7 +47208,7 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="7B84E332F6DE41CA9C3AE9F7F2B5CFA6">
+                    <vector>
                       <x>-2.5745255947</x>
                       <y>-1.2986251116</y>
                     </vector>
@@ -47285,7 +47285,7 @@
                         <color>
                           <r>0.000000</r>
                           <g>0.000000</g>
-                          <b>0.000000</b>
+                          <b>0.022939</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -47643,8 +47643,8 @@
                       <param name="color">
                         <color>
                           <r>0.011881</r>
-                          <g>0.016068</g>
-                          <b>0.015175</b>
+                          <g>0.037324</g>
+                          <b>0.000000</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -48230,13 +48230,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="71CC4456D0EAA8BA0ECDC852CB4CA60C">
+                    <vector>
                       <x>-2.1422338486</x>
                       <y>-1.0852410793</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="C65C38743016038830385AE9FDC5294C">
+                    <vector>
                       <x>-2.1422338486</x>
                       <y>-1.3238490820</y>
                     </vector>
@@ -48311,9 +48311,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.000000</r>
-                          <g>0.000000</g>
-                          <b>0.000000</b>
+                          <r>0.031012</r>
+                          <g>0.031012</g>
+                          <b>0.034667</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -48670,9 +48670,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
-                          <g>0.016068</g>
-                          <b>0.015175</b>
+                          <r>0.000000</r>
+                          <g>0.000000</g>
+                          <b>0.000000</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -49258,13 +49258,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="6F756B75BFDB4993F980A2B842D7EA58">
+                    <vector>
                       <x>-1.7137684822</x>
                       <y>-0.8613741398</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="A40F165D466CF6A4A5CD5EB120145349">
+                    <vector>
                       <x>-1.7137684822</x>
                       <y>-1.3120781183</y>
                     </vector>
@@ -49698,9 +49698,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
-                          <g>0.016068</g>
-                          <b>0.015175</b>
+                          <r>0.020423</r>
+                          <g>0.000000</g>
+                          <b>0.000000</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -50286,13 +50286,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="C3D4A95AB8639B67756A9637FD6BBE2D">
+                    <vector>
                       <x>-1.2151812315</x>
                       <y>-0.9978964925</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="6C490562AC83226C6D8988F4B428DA4A">
+                    <vector>
                       <x>-1.2151812315</x>
                       <y>-1.2983658314</y>
                     </vector>
@@ -50367,9 +50367,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.000000</r>
-                          <g>0.000000</g>
-                          <b>0.000000</b>
+                          <r>0.012034</r>
+                          <g>0.004176</g>
+                          <b>0.010264</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -50726,9 +50726,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
+                          <r>0.000000</r>
                           <g>0.016068</g>
-                          <b>0.015175</b>
+                          <b>0.056939</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -51314,7 +51314,7 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="9151B7794C34BD65B8CD39B408F1E32E">
+                    <vector>
                       <x>-0.8358525038</x>
                       <y>-1.3018013239</y>
                     </vector>
@@ -51391,7 +51391,7 @@
                         <color>
                           <r>0.000000</r>
                           <g>0.000000</g>
-                          <b>0.000000</b>
+                          <b>0.029530</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -51749,8 +51749,8 @@
                       <param name="color">
                         <color>
                           <r>0.011881</r>
-                          <g>0.016068</g>
-                          <b>0.015175</b>
+                          <g>0.064810</g>
+                          <b>0.000048</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -52336,13 +52336,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="F499C25CD7C7896D677FE88886C8A731">
+                    <vector>
                       <x>-0.4508102536</x>
                       <y>-1.0275543928</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="0D051EE7DA8D1FB9706A7F93818EDEAE">
+                    <vector>
                       <x>-0.4508102834</x>
                       <y>-1.1689517498</y>
                     </vector>
@@ -52418,7 +52418,7 @@
                       <param name="color">
                         <color>
                           <r>0.000000</r>
-                          <g>0.000000</g>
+                          <g>0.021660</g>
                           <b>0.000000</b>
                           <a>1.000000</a>
                         </color>
@@ -52776,9 +52776,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
+                          <r>0.050609</r>
                           <g>0.016068</g>
-                          <b>0.015175</b>
+                          <b>0.000072</b>
                           <a>1.000000</a>
                         </color>
                       </param>
@@ -53364,13 +53364,13 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="6.20833349s" before="clamped" after="clamped">
-                    <vector guid="BE79602C72F355919BBF0EB0A07CCE1A">
+                    <vector>
                       <x>-0.0998411477</x>
                       <y>-0.7395394444</y>
                     </vector>
                   </waypoint>
                   <waypoint time="7s" before="clamped" after="clamped">
-                    <vector guid="7E11D769A1C6B16E5821ED5AEEAA456F">
+                    <vector>
                       <x>-0.0998411700</x>
                       <y>-0.9781474471</y>
                     </vector>
@@ -53445,7 +53445,7 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.000000</r>
+                          <r>0.020494</r>
                           <g>0.000000</g>
                           <b>0.000000</b>
                           <a>1.000000</a>
@@ -53804,9 +53804,9 @@
                       </param>
                       <param name="color">
                         <color>
-                          <r>0.011881</r>
-                          <g>0.016068</g>
-                          <b>0.015175</b>
+                          <r>0.061078</r>
+                          <g>0.000005</g>
+                          <b>0.017696</b>
                           <a>1.000000</a>
                         </color>
                       </param>

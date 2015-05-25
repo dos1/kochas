@@ -6,5 +6,5 @@ synfig $@ scena.sif -o output/scena/scena.png
 synfig $@ stolik.sif -o output/stolik/stolik.png
 synfig $@ stolik2.sif -o output/stolik2/stolik2.png
 synfig $@ latino.sif -o output/latino/latino.png
-synfig $@ ending.sif -o output/ending/ending.png
+synfig $@ ending.sif -o output/ending/ending.png --fps 18 # poor man's time scaling
 cat kochas.kdenlive.in | sed s~__DIR__~$pwd~ > kochas.kdenlive
