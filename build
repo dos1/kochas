@@ -1,9 +1,10 @@
 #!/bin/sh
 pwd=`pwd`
-mkdir -p output output/problem output/scena output/stolik output/stolik2 output/latino
+mkdir -p output output/problem output/scena output/stolik output/stolik2 output/latino output/ending
 synfig $@ problem.sif -o output/problem/problem.png
 synfig $@ scena.sif -o output/scena/scena.png
 synfig $@ stolik.sif -o output/stolik/stolik.png
 synfig $@ stolik2.sif -o output/stolik2/stolik2.png
 synfig $@ latino.sif -o output/latino/latino.png
+synfig $@ ending.sif -o output/ending/ending.png
 cat kochas.kdenlive.in | sed s~__DIR__~$pwd~ > kochas.kdenlive
