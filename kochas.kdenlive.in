@@ -246,7 +246,7 @@
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="factory">loader</property>
-   <property name="resource">/media/ssd/.kde/share/apps/kdenlive/lumas/84389-watercolour-wash.pgm</property>
+   <property name="resource">__DIR__/assets/84389-watercolour-wash.pgm</property>
    <property name="mlt_type">transition</property>
    <property name="mlt_service">luma</property>
    <property name="automatic">1</property>
