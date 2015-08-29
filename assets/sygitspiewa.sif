@@ -5459,7 +5459,7 @@
                         </vector>
                       </param>
                       <param name="type">
-                        <integer value="3"/>
+                        <integer value="1"/>
                       </param>
                     </layer>
                   </canvas>
@@ -11630,7 +11630,7 @@
                         </vector>
                       </param>
                       <param name="type">
-                        <integer value="3"/>
+                        <integer value="1"/>
                       </param>
                     </layer>
                   </canvas>
@@ -20059,7 +20059,7 @@
                         </vector>
                       </param>
                       <param name="type">
-                        <integer value="3"/>
+                        <integer value="1"/>
                       </param>
                     </layer>
                   </canvas>

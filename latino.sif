@@ -15850,7 +15850,7 @@
                               </vector>
                             </param>
                             <param name="type">
-                              <integer value="3"/>
+                              <integer value="1"/>
                             </param>
                           </layer>
                           <layer type="stretch" active="true" exclude_from_rendering="false" version="0.1">
